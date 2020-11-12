@@ -1,6 +1,75 @@
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
+/* For navbar */
+
+.topnav {
+  background-color: skyblue;
+  overflow: hidden;
+  position: static;
+  font-weight: 500;
+  width: 100%; 
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: purple;
+  text-align: center;
+  padding: 6px 82.4px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  background-color: #08c230;
+  color: white;
+}
+.topnav a.active {
+  background-color: #841aab;
+  color: white;
+}
+.topnav .icon {
+  display: none;
+}
+
+/* Footer */
+
+#noline{
+	text-decoration:none;
+}
+
+#active{
+	text-decoration:none;
+}
+
+footer {
+  margin:0px auto;
+  padding-top: 10px;
+  margin-top: 200px;
+  background-color:skyblue;
+  height: 270px;
+  text-align: left;
+  width: 100%;
+  position: static;
+}
+
+/* DBMS */
+
+#extra{
+	padding-right:20px;
+	font-size:20px;
+}
+ /* Deleting orders */
+ 
+ #deco1{
+ margin-left:35.5%;
+ }
+ #deco1, #deco2{
+ padding-left:20px;
+ padding-right:20px;
+ }

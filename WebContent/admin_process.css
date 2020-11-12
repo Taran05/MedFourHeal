@@ -8,7 +8,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-    background-color:#f0f3f0;
+    background-color:#fff;
     font-family: 'Raleway', sans-serif;
 }
 header{
@@ -256,7 +256,7 @@ footer .about h3,.helper h3,.policy h3{
  height:200px;
  width:200px;
  }
- 
+  
  #redirect{
   margin-left: 46%;
   background-color: skyblue;
@@ -277,5 +277,12 @@ footer .about h3,.helper h3,.policy h3{
 
 #redirect:hover{
   background-color: #ffef96;
+}
+ #noline:hover{
+	color:blue;
+}
+
+#active{
+	text-decoration:none;
 }
  

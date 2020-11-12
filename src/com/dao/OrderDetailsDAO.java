@@ -13,6 +13,9 @@ public class OrderDetailsDAO
 	Connection con;
     PreparedStatement pst;
     ResultSet rs;
+    
+    
+     /* Created ArrayList for getting all orders details.*/
 	 public ArrayList<OrderDetails> getAllCustOrderDetails() {
 	        ArrayList<OrderDetails> lst = null;
 
@@ -50,6 +53,72 @@ public class OrderDetailsDAO
 
 	        return lst;
 	    }
-
+	 
+	 /* This method will allow administrator to delete the order.*/
+	 public boolean deleteOrder(int id)
+	    {
+	        boolean b = false;
+	        
+	        try
+	        {
+	            con = DatabaseConnection.getConnection();
+	            
+	            pst = con.prepareStatement("delete from orderdetails where Id= ?");
+	            
+	            pst.setInt(1, id);
+	        
+	            int count = pst.executeUpdate();
+	            
+	            if(count > 0)
+	                b = true;
+	            
+	            con.close();
+	        }
+	        catch(Exception ex)
+	        {
+	            ex.printStackTrace();
+	        }
+	        
+	        return b;
+	    }
+	 
+	 /* This method will allow administrator to update the order details.*/
+	 public boolean updateOrderDetails(int id, String email, String medcode, String medicinename, int minquantity, String type, int orderqueue,
+				int netcost, int amount, String paymode, String status)
+	    {
+	        boolean b = false;
+	        
+	        try
+	        {
+	            con = DatabaseConnection.getConnection();
+	            
+	            pst = con.prepareStatement("update orderdetails set Email=?, Medcode=?, Medicine_Name=?, Minquantity=?, Type=?, Orderqueue=?, Netcost=?, Amount=?,Paymode=?,Status=?"
+	            		+ " where Id=?");
+	            
+	            pst.setString(1, email);
+	            pst.setString(2, medcode);
+	            pst.setString(3, medicinename);
+	            pst.setInt(4, minquantity);
+	            pst.setString(5, type);
+	            pst.setInt(6, orderqueue);
+	            pst.setInt(7, netcost);
+	            pst.setInt(8, amount);
+	            pst.setString(9, paymode);
+	            pst.setString(10, status);
+	            pst.setInt(11, id);
+	            int count = pst.executeUpdate();
+	            
+	            if(count > 0)
+	                b = true;
+	            
+	            con.close();
+	        }
+	        catch(Exception ex)
+	        {
+	            ex.printStackTrace();
+	        }
+	        
+	        return b;
+	    }
 
 }

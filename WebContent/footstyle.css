@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	height: 120px;
+	color: purple;
+	word-spacing: 5px;
+	padding-top: 7px;
+}
+#logo{
+  height: 135px;
+  width: 15%;
+  margin-bottom: 25px;
+}
+.first{
+	background-color: #FBBC05;
+	height: 40%;
+}
+#mar{
+  height: 22%;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.second{
+  background-color: skyblue;
+  min-height: 80px;
+  padding-top: 0px;
+}
+.second img{
+  width: 30%;
+  padding-left: 34%;
+  padding-top: 25px;
+}
+.second input{
+	float: right;
+	margin-right: 50px;
+	width: 12%;
+}
+.second input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* For navbar */
+
+.topnav {
+  background-color: skyblue;
+  overflow: hidden;
+  position: static;
+  font-weight: 500;
+  width: 100%; 
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: purple;
+  text-align: center;
+  padding: 6px 82.4px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  background-color: #08c230;
+  color: white;
+}
+.topnav a.active {
+  background-color: #841aab;
+  color: white;
+}
+.topnav .icon {
+  display: none;
+}
+
+
+
+/* For image-slider */
+
+.mySlides {display: none;}
+
+
+#ad{
+	height: 500px;
+	width: 800px;
+	vertical-align: middle;
+	padding: 70px;
+	padding-left: 2%;
+}
+
+/* Footer */
+
+footer div{
+  display:table-cell;
+  float: left;
+  padding: 40px;
+  padding-top: 25px;
+ 
+}
+footer .mail{
+  padding-left: 106px;
+}
+footer .office{
+  padding-left: 70px;
+}
+
+footer {
+  margin:0px auto;
+  padding-top: 10px;
+  margin-top: 100px;
+  background-color:skyblue;
+  height: 270px;
+  text-align: left;
+  width: 100%;
+  position: static;
+}
+
+footer .about li,.helper li,.policy li{
+
+  list-style-type: none;
+  padding-top: 5px;
+}
+
+footer div li a{
+text-decoration: none;
+color: black;
+font-weight: 500;
+font-size: 18px;
+}
+footer div h3{
+  color:#cc0066;
+  font-weight: 800;
+  font-size: 24px;  
+}
+footer .about h3,.helper h3,.policy h3{
+  padding-left: 39px;
+} 
+.mail, .office{
+	font-weight: 500;
+	font-size: 18px;
+}
+
+
+
+
+/* slideshow */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #6bd2ff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #036f9e;
+}
+
+/* about.jsp */
+
+#indigo{
+  padding-top: 55px;
+  font-weight: 500;
+  font-size: 28px;
+  padding-left: 10px;
+  word-spacing: 9px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#talent{
+  border-radius: 100%; 
+  width: 230px;
+  height: 250px;
+  padding-top: 55px;
+  margin-left: 35%;
+ }
+ 
+ #matter{
+  font-size: 28px;
+  padding-top: 70px;
+  word-spacing: 9px;
+  padding-left: 10px;
+ }
+ #found{
+  font-size: 50px;
+  padding-top: 50px;
+  padding-left: 10px;
+ }
+
+ #lead{
+  padding-left: 130px;
+  font-size: 31px;
+  font-weight: 700;
+ }
+
+ #mango{
+  display: table-cell;
+ }
+ 
+ #noline:hover{
+	color:blue;
+}
+#active{
+	text-decoration:none;
+}
+
+/* Back button */
+
+#redirect{
+  margin-left: 15px;
+  background-color: pink;
+  padding: 10px;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  width: 8%;
+}
+
+#back{
+  text-decoration: none;
+  font-size: 24px;
+}
+
+#redirect:hover{
+  background-color: #ffd1f6;
+}
+#aashi{
+	text-align:center;
+}
+
+#neo{
+	padding-right:13px;
+	padding-left:13px;
+}
+#jio{
+	padding-right:13px;
+	padding-left:17px;
+}
+#bull{
+	padding-left:10px;
+}

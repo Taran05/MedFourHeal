@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+
+#abcd{
+ float:right;
+ padding-right:70px;
+ padding-top:40px;
+ height:200px;
+ width:300px;
+}
+
+#line, .line{
+	text-align: center;
+	color: #cc0066;
+	font-size: 20px;
+	padding-left: 25px;
+	text-decoration: none;
+	font-family: 'Sawarabi Gothic', sans-serif;
+	font-weight: bolder;
+}
+#line:hover{
+	color: #08c230;
+}

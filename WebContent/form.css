@@ -1,0 +1,120 @@
+.login-form-grids{
+    width: 45%;
+    padding: 3em;
+    background:#F7F7F9;
+    margin:0em auto 0;
+}
+.login-form-grids input[type="email"],.login-form-grids input[type="password"],.login-form-grids input[type="text"],.login-form-grids input[type="date"]{
+    outline: none;
+    border: 1px solid #DBDBDB;
+    padding: 10px 10px 10px 10px;
+    font-size: 14px;
+    color: black;
+    display: block;
+    width: 100%;
+}
+
+.login-form-grids input[type="password"]{
+    margin:1em 0 0;
+}
+.forgot {
+    margin: 1.5em 0 0;
+}
+.login-form-grids input[type="submit"]{
+    outline: none;
+    border: none;
+    padding: 10px 0;
+    font-size: 1em;
+    color: #fff;
+    display: block;
+    width: 100%;
+    background:#3399cc;
+    margin: 1.5em 0 0;
+}
+.login-form-grids input[type="submit"]:hover{
+    background:#fe9126;
+}
+.login-form-grids ::-webkit-input-placeholder{
+    color:black;
+}
+
+
+.login-form-grids input[type="reset"]{
+    outline: none;
+    border: none;
+    padding: 10px 0;
+    font-size: 1em;
+    color: #fff;
+    display: block;
+    width: 100%;
+    background:#3399cc;
+    margin: 1.5em 0 0;
+}
+.login-form-grids input[type="reset"]:hover{
+    background:#fe9126;
+}
+
+
+
+
+.forgot a{
+    color:#212121;
+    font-size:14px;
+    text-decoration:none;
+}
+.forgot a:hover{
+    color:#d8703f;
+}
+.login h4{
+    margin: 2em 0 0.5em;
+    font-size: 1.5em;
+    color: #212121;
+    text-align: center;
+    text-transform: uppercase;
+}
+.login p{
+    font-size:14px;
+    color:black;
+    line-height:1.8em;
+    margin:0;
+    text-align:center;
+}
+.login p a{
+    color:#ffffff;
+    text-decoration:none;
+    font-size: 1.2em;
+    padding: 0 .5em;
+}
+.login p a:hover{
+    color:#212121;
+}
+.login p a span{
+    top: 0.1em;
+    font-size: .7em;
+    left: 0.3em;
+}
+.login {
+    padding: 5em 0;
+}
+
+.register {
+    padding: 5em 0;
+}
+.login-form-grids h5,.login-form-grids h6{
+    font-size:1em;
+    color:#212121;
+    text-transform:uppercase;
+    margin:0 0 2em;
+}
+.login-form-grids input[type="text"]{
+    background:url(images/1.jpg) no-repeat 5px -259px #fff;
+    margin:1em 0;
+
+}
+.login-form-grids input[type="text"]:nth-child(2){
+    background:url(images/1.jpg) no-repeat 0px -298px #fff;
+    margin:1em 0;
+}
+
+
+}

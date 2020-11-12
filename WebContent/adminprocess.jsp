@@ -17,7 +17,7 @@
   <a href="index.jsp">Home</a>
   <a href="about.jsp">About Us</a>
   <a href="admin.jsp"  class="active" id="active">Administrator</a>
-  <a href="distributerlogin.jsp">Distributer</a>
+  <a href="distributor.jsp">Distributer</a>
    <a href="customer.jsp">Customer</a>
      <a href="contactus.jsp">Contact Us</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -30,51 +30,52 @@
 <h1 id="w">Welcome Admin !</h1>
 <img src="images/admin.png" id="abc"></img>
 <br><br><a href='customeradmin.jsp' id="ll"> Go To Customer Administration </a><br> <br><br>
-<br><a href='ordersadmin.jsp' id="ll"> Go To Orders Administration </a><br>
+<br><a href='ordersadmin.jsp' id="ll"> Go To Orders Administration </a><br><br><br>
+<br><a href='distributoradmin.jsp' id="ll"> Go To Distributor Administration </a><br><br>
 <br><button id="redirect"><a href="admin.jsp" id="back">Logout</a></button>
 <footer class="footer">
 	<div class="about">
         <h3>About</h3>
         <ul>
-            <li> <a href="contactus.jsp"> Contact Us</a></li>
-            <li> <a href="about.jsp"> About us</a></li>
-            <li> <a href="cons.html"> Carrers</a></li>
-            <li> <a href="cons.html"> Press</a></li>
+            <li> <a href="contactus.jsp" id="noline"> Contact Us</a></li>
+            <li> <a href="about.jsp" id="noline"> About us</a></li>
+            <li> <a href="careers.jsp" id="noline"> Carrers</a></li>
+            <li> <a href="customer.jsp" id="noline"> Login Now</a></li>
         </ul>
     </div>
     <div class="helper">
           <h3>Help</h3>
           <ul>
-            <li> <a href="cons.html"> Payments</a></li>
-            <li> <a href="cons.html"> Shipping</a></li>
-            <li> <a href="cons.html"> Cancellation and Returns</a></li>
-            <li> <a href="cons.html"> Report an issue</a></li>
+            <li> <a href="editorial.jsp" id="noline"> Editorial</a></li>
+           <li> <a href="shipping.jsp" id="noline"> Shipping</a></li>
+            <li> <a href="Terms And Conditions.pdf" id="noline"> Terms & Conditions</a></li>
+            <li> <a href="contactus.jsp" id="noline"> Report an issue</a></li>
           </ul>
         </div>
         <div class="policy">
           <h3>Policy</h3>
           <ul>
-            <li> <a href="cons.html"> Return Policy</a></li>
-            <li> <a href="cons.html"> Time Of Use</a></li>
-            <li> <a href="cons.html"> Carrers</a></li>
-            <li> <a href="cons.html"> Privacy</a></li>
+            <li> <a href="returnpolicy.jsp" id="noline"> Return Policy</a></li>
+            <li> <a href="delivery.jsp" id="noline"> Delivery Policy</a></li>
+            <li> <a href="cancellationpolicy.jsp" id="noline"> Cancellation Policy</a></li>
+            <li> <a href="Privacy Policy.pdf" id="noline"> Privacy Policy</a></li>
           </ul>
         </div>
         <div class="mail">
           <h3>Mail Us</h3>
-          <p>supermarket@tarantino.com<br>
-          jeevan50@tarantino.com</p><br>
+          <p>medfourheal@gmail.com<br>
+       
           
         </div>
         <div class="office">
           <h3>Registered Office</h3>
-          <p>ROJAY Online Shopping<br>
-            6/21 R.J Complex<br>
+          <p>Computer-Science Block,<br>
+            Medi-Caps University<br>
             <br>
         
-             Fort Road,<br>
+             A.B. Road, Pigdamber, Rau <br>
 
-            Delhi 458706</p>
+            Indore - 453331</p>
 
           
         </div>

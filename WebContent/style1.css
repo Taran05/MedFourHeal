@@ -8,7 +8,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-    background-color: #f0f3f0;
+    background-color: #fff;
     font-family: 'Raleway', sans-serif;
 }
 header{
@@ -221,4 +221,10 @@ footer .about h3,.helper h3,.policy h3{
   display: table-cell;
  }
  
+ #noline:hover{
+	color:blue;
+}
+#active{
+	text-decoration:none;
+}
  

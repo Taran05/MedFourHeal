@@ -8,7 +8,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-    background-color: #f0f3f0;
+   background-color: #fff;
     font-family: 'Raleway', sans-serif;
 }
 header{
@@ -17,7 +17,7 @@ header{
 	height: 120px;
 	color: purple;
 	word-spacing: 5px;
-	padding-top: 7px;
+	padding-top: 0px;
 }
 #logo{
   height: 70%;
@@ -166,7 +166,7 @@ footer .about h3,.helper h3,.policy h3{
   max-width: 380px;
   width: 100%;
   height: 500px;
-  background: #f0f3f0;
+  background: #f0f0f0;
   padding: 25px;
   border-radius: 5px;
   margin-top: 400px;
@@ -225,4 +225,11 @@ footer .about h3,.helper h3,.policy h3{
   font-size: 14px;
   transition: all 0.5s ease;
 }
- 
+ #noline:hover{
+	color:blue;
+}
+
+#active{
+	text-decoration:none;
+}
+
