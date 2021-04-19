@@ -34,7 +34,7 @@
   </div>
         <div class="login">
             <div class="container">
-                <h2>Delete Customer</h2>
+                <h2>Delete Distributor</h2>
                 <div class="login-form-grids">
                     <form method="post" action="DeleteDistributor_db.jsp">
                         <input type="text" placeholder="Email" name="email" required="" >

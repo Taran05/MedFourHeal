@@ -170,7 +170,7 @@ public class DistributorDAO
 
 	        try {
 	            con = DatabaseConnection.getConnection();
-	            pst = con.prepareStatement("SELECT * FROM donar WHERE email = ? and password = ?");
+	            pst = con.prepareStatement("SELECT * FROM distributor WHERE email = ? and password = ?");
 
 	            pst.setString(1, obj.getEmail());
 	            pst.setString(2, obj.getPassword());

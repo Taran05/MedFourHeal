@@ -19,7 +19,7 @@
   <a href="index.jsp">Home</a>
   <a href="about.jsp">About Us</a>
   <a href="admin.jsp">Administrator</a>
-  <a href="distributor.jsp" class="active" id="active">Distributer</a>
+  <a href="distributor.jsp" class="active" id="active">Distributor</a>
    <a href="customer.jsp">Customer</a>
      <a href="contactus.jsp">Contact Us</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -32,17 +32,17 @@
 
 <div class="wrapper">
   <h2>Welcome To Distributor Login</h2>
-  <div id="error_message">   
+  <div>   
   </div>
-  <form action="distributroProcess.jsp" id="myform" onsubmit = "return validate();">
+  <form method="post" action="distributorLogin_db.jsp">
     <div class="input_field">
-        <input type="text" placeholder="Username" id="email">
+        <input type="text" placeholder="Username" name="email" required=" ">
     </div>
     <div class="input_field">
-        <input type="password" placeholder="Password" id="password">
+        <input type="password" placeholder="Password" name="password" required=" ">
     </div>
     <div class="btn">
-        <input type="submit" value="Submit">
+        <input type="submit" value="Login">
     </div>
     <br><br>
     <h3 > <a href="distributorRegister.jsp" id="line" class="line">New to Medfourheal? Register Now !</a></h3>
@@ -50,30 +50,6 @@
 </div>
 
 <script>
-function validate(){
-	  var email = document.getElementById("email").value;
-	  var password = document.getElementById("password").value;
-	  var error_message = document.getElementById("error_message");
-	  error_message.style.padding = "10px";
-	  var text;
-	  if(email == "" || password==""){
-		    text = "Please fill out all fields";
-		    error_message.innerHTML = text;
-		    return false;
-		  }
-	  if(email !="distributor@gmail.com"){
-	    text = "Incorrect Email!";
-	    error_message.innerHTML = text;
-	    return false;
-	  }
-	  if(password != "distributor"){
-	    text = "Incorrect password!";
-	    error_message.innerHTML = text;
-	    return false;
-	  }
-	  
-	  return true;
-	}
 </script>
 
 

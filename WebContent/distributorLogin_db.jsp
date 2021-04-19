@@ -18,12 +18,24 @@
         if (b) 
         { 
             session.setAttribute("distributor",obj.getEmail());
-            RequestDispatcher rd = request.getRequestDispatcher("distributorProcess.jsp");
+
+            
+            RequestDispatcher rd = request.getRequestDispatcher("distributroProcess.jsp");
             rd.forward(request, response); 
+            %>
+            <script>
+                swal("Welcome!", "Login Successfully!", "success");
+            </script>
+            <%
         } 
         else 
         {
-             RequestDispatcher rd = request.getRequestDispatcher("distributorLogin.jsp");
+        	%>
+            <script>
+                swal("Please login with correct id!", "error");
+            </script>
+            <%
+             RequestDispatcher rd = request.getRequestDispatcher("distributor.jsp");
             rd.include(request, response);
         }
             

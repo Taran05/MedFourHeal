@@ -16,8 +16,8 @@
 	<div class="topnav" id="myTopnav">
   <a href="index.jsp">Home</a>
   <a href="about.jsp">About Us</a>
-  <a href="admin.jsp"  class="active" id="active">Administrator</a>
-  <a href="distributor.jsp">Distributor</a>
+  <a href="admin.jsp" >Administrator</a>
+  <a href="distributor.jsp" class="active" id="active">Distributor</a>
    <a href="customer.jsp">Customer</a>
      <a href="contactus.jsp">Contact Us</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -30,9 +30,9 @@
 
 <div class="wrapper">
   <h2>Welcome To Distributor Login</h2>
-  <div id="error_message">   
+  <div>   
   </div>
-  <form action="distributorProcess.jsp" id="myform" onsubmit = "return validate();">
+  <form method="post" action="distributorLogin_db.jsp" ">
     <div class="input_field">
         <input type="text" placeholder="Username" id="email">
     </div>
@@ -40,15 +40,13 @@
         <input type="password" placeholder="Password" id="password">
     </div>
     <div class="btn">
-        <input type="submit" value="Submit">
+        <input type="submit" value="Login">
     </div>
+    <br><br>
+    <h3 > <a href="distributorRegister.jsp" id="line" class="line">New to Medfourheal? Register Now !</a></h3>
+  </form>
   </form>
 </div>
-
-
-
-
-
 <footer class="footer">
 	<div class="about">
         <h3>About</h3>
@@ -90,9 +88,7 @@
             <br>
         
              A.B. Road, Pigdamber, Rau <br>
-
             Indore - 453331</p>
-
           
         </div>
 </footer>
