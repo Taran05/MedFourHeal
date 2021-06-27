@@ -11,8 +11,8 @@ Currently, I am working on adding some additional features, which will flourish 
 
 ## Front-end:
 
-* HTML
-* CSS
+* HTML5
+* CSS3
 * JavaScript
 * Bootstrap
 * JSP
