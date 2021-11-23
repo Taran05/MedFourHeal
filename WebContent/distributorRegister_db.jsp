@@ -17,7 +17,7 @@
                %>
                   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
                         <script>
-                                swal("Distributor Registered Successfully!");
+                                swal("Verification link has been sent on your email!");
                         </script>
                         <jsp:include page="distributor.jsp"/>
                <%
@@ -25,7 +25,7 @@
                  %>
                   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
                         <script>
-                                swal("Distributor Not Registered Successfully!!!!");
+                                swal("Your email is incorrect please chack email!");
                         </script>
                         <jsp:include page="distributorRegister.jsp"/>
                <%

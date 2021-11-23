@@ -18,7 +18,7 @@
   <a href="index.jsp">Home</a>
   <a href="about.jsp">About Us</a>
   <a href="admin.jsp">Administrator</a>
-  <a href="distributor.jsp" class="active" id="active">Distributer</a>
+  <a href="distributor.jsp" class="active" id="active">Distributor</a>
    <a href="customer.jsp">Customer</a>
      <a href="contactus.jsp">Contact Us</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -33,6 +33,7 @@
 <br><br><a href='addmedicine.jsp' id="ll"> Add Medicine </a><br> <br><br>
 <br><a href='ordersdistributor.jsp' id="ll"> Customer Order Details </a><br> <br><br>
 <br><a href='viewstock.jsp' id="ll"> View Stock</a><br>
+<br><br><br><a href='distributorchangepassword.jsp' id="ll"> Change Password</a><br>
 <br><button id="redirect"><a href="distributor.jsp" id="back">Logout</a></button>
 <footer class="footer">
 	<div class="about">
@@ -40,7 +41,7 @@
         <ul>
             <li> <a href="contactus.jsp" id="noline"> Contact Us</a></li>
             <li> <a href="about.jsp" id="noline"> About us</a></li>
-            <li> <a href="careers.jsp" id="noline"> Carrers</a></li>
+            <li> <a href="careers.jsp" id="noline">Careers</a></li>
             <li> <a href="customer.jsp" id="noline"> Login Now</a></li>
         </ul>
     </div>
@@ -64,7 +65,7 @@
         </div>
         <div class="mail">
           <h3>Mail Us</h3>
-          <p>medfourheal@gmail.com<br>
+          <p>med4heal@gmail.com<br>
        
           
         </div>

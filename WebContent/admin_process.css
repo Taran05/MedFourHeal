@@ -166,7 +166,7 @@ footer .about h3,.helper h3,.policy h3{
   transform: translate(-50%,-50%);
   max-width: 380px;
   width: 100%;
-  height: 430px;
+  height: 600px;
   background: #f0f3f0;
   padding: 25px;
   border-radius: 5px;
@@ -189,6 +189,13 @@ footer .about h3,.helper h3,.policy h3{
 }
 
 .wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 8px;
+}
+
+.wrapper .input_field input[type="email"],
 .wrapper textarea{
   border: 1px solid #e0e0e0;
   width: 100%;

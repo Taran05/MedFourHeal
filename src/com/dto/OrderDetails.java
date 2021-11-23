@@ -10,7 +10,6 @@ public class OrderDetails implements Serializable
 	private String medicinename;
 	private int minquantity;
 	private String type;
-	private int orderqueue;
 	private int netcost;
 	private int amount;
 	private String paymode;
@@ -20,7 +19,7 @@ public class OrderDetails implements Serializable
 	{
 	}
 
-	public OrderDetails(int id, String email, String medcode, String medicinename, int minquantity, String type, int orderqueue,
+	public OrderDetails(int id, String email, String medcode, String medicinename, int minquantity, String type,
 			int netcost, int amount, String paymode, String status) {
 		super();
 		this.id = id;
@@ -29,7 +28,6 @@ public class OrderDetails implements Serializable
 		this.medicinename = medicinename;
 		this.minquantity = minquantity;
 		this.type = type;
-		this.orderqueue = orderqueue;
 		this.netcost = netcost;
 		this.amount = amount;
 		this.paymode = paymode;
@@ -84,14 +82,7 @@ public class OrderDetails implements Serializable
 		this.type = type;
 	}
 
-	public int getOrderqueue() {
-		return orderqueue;
-	}
-
-	public void setOrderqueue(int orderqueue) {
-		this.orderqueue = orderqueue;
-	}
-
+	
 	public int getNetcost() {
 		return netcost;
 	}

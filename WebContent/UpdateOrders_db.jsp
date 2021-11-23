@@ -15,13 +15,12 @@
 			String medicinename = request.getParameter("medicinename");
 			int minquantity = Integer.parseInt(request.getParameter("minquantity"));
 			String type = request.getParameter("type");
-			int orderqueue = Integer.parseInt(request.getParameter("orderqueue"));
 			int netcost = Integer.parseInt(request.getParameter("netcost"));
 			int amount = Integer.parseInt(request.getParameter("amount"));
 			String paymode = request.getParameter("paymode");
 			String status  = request.getParameter("status");
             OrderDetailsDAO obj = new OrderDetailsDAO();
-            boolean i = obj.updateOrderDetails(id, email, medcode, medicinename, minquantity, type, orderqueue, netcost, amount, paymode, status);
+            boolean i = obj.updateOrderDetails(id, email, medcode, medicinename, minquantity, type, netcost, amount, paymode, status);
             if (i) {
                %>
                   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>

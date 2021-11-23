@@ -67,7 +67,7 @@
         <ul>
             <li> <a href="contactus.jsp" id="noline"> Contact Us</a></li>
             <li> <a href="about.jsp" id="noline"> About us</a></li>
-            <li> <a href="careers.jsp" id="noline"> Carrers</a></li>
+            <li> <a href="careers.jsp" id="noline">Careers</a></li>
             <li> <a href="customer.jsp" id="noline"> Login Now</a></li>
         </ul>
     </div>
@@ -91,7 +91,7 @@
         </div>
         <div class="mail">
           <h3>Mail Us</h3>
-          <p>medfourheal@gmail.com<br>
+          <p>med4heal@gmail.com<br>
        
           
         </div>
@@ -111,5 +111,6 @@
 <br>
   </div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>

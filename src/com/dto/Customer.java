@@ -11,13 +11,14 @@ public class Customer implements Serializable
     private String address;
     private String mobile_no;
     private String d_o_b;
+    private boolean verified;
     
     public Customer()
     {
     }
     
     public Customer(String email, String password, String first_name, String last_name, String address,
-			String mobile_no, String d_o_b) {
+			String mobile_no, String d_o_b, boolean verified) {
 		super();
 		this.email = email;
 		this.password = password;
@@ -26,6 +27,7 @@ public class Customer implements Serializable
 		this.address = address;
 		this.mobile_no = mobile_no;
 		this.d_o_b = d_o_b;
+		this.verified=verified;
 	}
 
 	public String getEmail() {
@@ -84,4 +86,11 @@ public class Customer implements Serializable
 		this.d_o_b = d_o_b;
 	}
     
+	public boolean isVerified() {
+        return verified;
+    }
+
+    public void setVerified(boolean verified) {
+        this.verified = verified;
+    }
 }

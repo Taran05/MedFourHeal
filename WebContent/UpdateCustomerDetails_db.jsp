@@ -22,7 +22,7 @@
                %>
                   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
                         <script>
-                                swal("Customer Details Updated Successfully!", "success");
+                                swal("Customer Details Updated Successfully!", "Success");
                         </script>
                         <jsp:include page="customeradmin.jsp"/>
                <%
@@ -30,7 +30,7 @@
                  %>
                   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
                         <script>
-                                swal("Customer Details Not Updated Successfully!!!!", "Fail");
+                                swal("Customer Details Not Updated Successfully!!!!", "Error");
                         </script>
                         <jsp:include page="UpdateCustomerDetails.jsp"/>
                <%

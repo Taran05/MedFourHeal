@@ -19,7 +19,7 @@
   <a href="index.jsp">Home</a>
   <a href="about.jsp">About Us</a>
   <a href="admin.jsp">Administrator</a>
-  <a href="distributor.jsp">Distributer</a>
+  <a href="distributor.jsp">Distributor</a>
    <a href="customer.jsp" class="active" id="active">Customer</a>
      <a href="contactus.jsp">Contact Us</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -31,25 +31,25 @@
 <br>
 
 <div class="wrapper">
-  <h2>Welcome To Customer Login</h2>
-  <div id="error_message">   
-  </div>
-  <form action="customerProcess.jsp" id="myform" onsubmit = "return validate();">
+  <h2>Welcome To Customer Login</h2><br>
+  <form method="post" action="customerLogin_db.jsp">
     <div class="input_field">
-        <input type="text" placeholder="Username" id="email">
-    </div>
+        <input type="email" placeholder="Username" name="email" required=" ">
+    </div><br>
     <div class="input_field">
-        <input type="password" placeholder="Password" id="password">
+        <input type="password" placeholder="Password" name="password" required=" ">
     </div>
+    <br>
+    <h3 ><a href="customerforgetpassword.jsp" id="shar" class="shar">Forget Password?</a></h3>
     <div class="btn">
-        <input type="submit" value="Submit">
+        <input type="submit" value="Login">
     </div>
     <br><br>
     <h3 > <a href="customerRegister.jsp" id="line" class="line">New to Medfourheal? Register Now !</a></h3>
   </form>
 </div>
 
-<script>
+<!-- <script>
 function validate(){
 	  var email = document.getElementById("email").value;
 	  var password = document.getElementById("password").value;
@@ -74,7 +74,7 @@ function validate(){
 	  
 	  return true;
 	}
-</script>
+</script>-->
 
 
 
@@ -85,7 +85,7 @@ function validate(){
         <ul>
             <li> <a href="contactus.jsp" id="noline"> Contact Us</a></li>
             <li> <a href="about.jsp" id="noline"> About us</a></li>
-            <li> <a href="careers.jsp" id="noline"> Carrers</a></li>
+            <li> <a href="careers.jsp" id="noline"> Careers</a></li>
             <li> <a href="customer.jsp" id="noline"> Login Now</a></li>
         </ul>
     </div>
@@ -109,7 +109,7 @@ function validate(){
         </div>
         <div class="mail">
           <h3>Mail Us</h3>
-          <p>medfourheal@gmail.com<br>
+          <p>med4heal@gmail.com<br>
        
           
         </div>
@@ -129,5 +129,6 @@ function validate(){
 <br>
   </div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>

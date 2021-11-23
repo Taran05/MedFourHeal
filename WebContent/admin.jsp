@@ -4,6 +4,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Administration Login</title>
 <link href="admin_style.css" rel="stylesheet" type="text/css"> 
+<link href="admin_process.css" rel="stylesheet" type="text/css"> 
+<link href="distributor_process.css" rel="stylesheet" type="text/css"> 
+<link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 
 <body>
@@ -17,7 +21,7 @@
   <a href="index.jsp">Home</a>
   <a href="about.jsp">About Us</a>
   <a href="admin.jsp"  class="active" id="active">Administrator</a>
-  <a href="distributor.jsp">Distributer</a>
+  <a href="distributor.jsp">Distributor</a>
    <a href="customer.jsp">Customer</a>
      <a href="contactus.jsp">Contact Us</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -29,48 +33,23 @@
 <br>
 
 <div class="wrapper">
-  <h2>Welcome To Administration Login</h2>
-  <div id="error_message">   
-  </div>
-  <form action="adminprocess.jsp" id="myform" onsubmit = "return validate();">
+  <h2>Welcome To Administration Login</h2><br>
+  <form method="post" action="adminLogin_db.jsp">
     <div class="input_field">
-        <input type="text" placeholder="Username" id="username">
-    </div>
+        <input type="email" placeholder="Username" name="email" required=" " >
+    </div><br>
     <div class="input_field">
-        <input type="password" placeholder="Password" id="password">
+        <input type="password" placeholder="Password" name="password" required=" ">
     </div>
+<br>
+     <h3 ><a href="admin_forgetpassword.jsp" id="shar" class="shar">Forget Password?</a></h3>
     <div class="btn">
-        <input type="submit" value="Submit">
+        <input type="submit" value="Login" style="margin-top:30px">
     </div>
   </form>
 </div>
 
-<script>
-function validate(){
-	  var username = document.getElementById("username").value;
-	  var password = document.getElementById("password").value;
-	  var error_message = document.getElementById("error_message");
-	  error_message.style.padding = "10px";
-	  var text;
-	  if(username == "" || password==""){
-		    text = "Please fill out all fields";
-		    error_message.innerHTML = text;
-		    return false;
-		  }
-	  if(username !="admin"){
-	    text = "Incorrect username!";
-	    error_message.innerHTML = text;
-	    return false;
-	  }
-	  if(password != "admin"){
-	    text = "Incorrect password!";
-	    error_message.innerHTML = text;
-	    return false;
-	  }
-	  
-	  return true;
-	}
-</script>
+
 
 
 
@@ -82,7 +61,7 @@ function validate(){
         <ul>
             <li> <a href="contactus.jsp" id="noline"> Contact Us</a></li>
             <li> <a href="about.jsp" id="noline"> About us</a></li>
-            <li> <a href="careers.jsp" id="noline"> Carrers</a></li>
+            <li> <a href="careers.jsp" id="noline"> Careers</a></li>
             <li> <a href="customer.jsp" id="noline"> Login Now</a></li>
         </ul>
     </div>
@@ -106,7 +85,7 @@ function validate(){
         </div>
         <div class="mail">
           <h3>Mail Us</h3>
-          <p>medfourheal@gmail.com<br>
+          <p>med4heal@gmail.com<br>
        
           
         </div>
@@ -126,5 +105,6 @@ function validate(){
 <br>
   </div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>

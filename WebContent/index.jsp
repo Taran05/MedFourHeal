@@ -17,7 +17,7 @@
   <a href="index.jsp" class="active" id="active">Home</a>
   <a href="about.jsp">About Us</a>
   <a href="admin.jsp">Administrator</a>
-  <a href="distributor.jsp">Distributer</a>
+  <a href="distributor.jsp">Distributor</a>
    <a href="customer.jsp">Customer</a>
      <a href="contactus.jsp">Contact Us</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -87,7 +87,7 @@ function showSlides() {
         <ul>
             <li> <a href="contactus.jsp" id="noline"> Contact Us</a></li>
             <li> <a href="about.jsp" id="noline"> About us</a></li>
-            <li> <a href="careers.jsp" id="noline"> Carrers</a></li>
+            <li> <a href="careers.jsp" id="noline"> Careers</a></li>
             <li> <a href="customer.jsp" id="noline"> Login Now</a></li>
         </ul>
     </div>
@@ -111,7 +111,7 @@ function showSlides() {
         </div>
         <div class="mail">
           <h3>Mail Us</h3>
-          <p>medfourheal@gmail.com<br>
+          <p>med4heal@gmail.com<br>
        
           
         </div>
@@ -131,5 +131,6 @@ function showSlides() {
 <br>
   </div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>

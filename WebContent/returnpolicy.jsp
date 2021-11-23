@@ -84,7 +84,7 @@
         </div>
         <div class="mail">
           <h3>Mail Us</h3>
-          <p>medfourheal@gmail.com<br>
+          <p>med4heal@gmail.com<br>
        
           
         </div>
@@ -104,5 +104,6 @@
 <br>
   </div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>

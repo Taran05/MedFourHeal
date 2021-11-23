@@ -19,7 +19,7 @@
   <a href="index.jsp">Home</a>
   <a href="about.jsp">About Us</a>
   <a href="admin.jsp">Administrator</a>
-  <a href="distributor.jsp">Distributer</a>
+  <a href="distributor.jsp">Distributor</a>
    <a href="customer.jsp" class="active" id="active"
    >Customer</a>
      <a href="contactus.jsp">Contact Us</a>
@@ -33,8 +33,8 @@
 <h1 id="w">Welcome Customer !</h1>
 <img src="images/custom.jpg" id="pqrs"></img>
 <br><br><a href='ordermedicine.jsp' id="ll"> Order Medicine </a><br> <br><br>
-<br><a href='payment.jsp' id="ll"> Make Payment </a><br> <br><br>
-<br><a href='viewbills.jsp' id="ll"> View Bills</a><br>
+<br><a href='viewbillOrders.jsp' id="ll"> View Bills/Orders</a><br><br><br>
+<br><a href='customerchangepassword.jsp' id="ll">Change Password</a></br>
 <br><button id="redirect"><a href="customer.jsp" id="back">Logout</a></button>
 <footer class="footer">
 	<div class="about">
@@ -42,7 +42,7 @@
         <ul>
             <li> <a href="contactus.jsp" id="noline"> Contact Us</a></li>
             <li> <a href="about.jsp" id="noline"> About us</a></li>
-            <li> <a href="careers.jsp" id="noline"> Carrers</a></li>
+            <li> <a href="careers.jsp" id="noline">Careers</a></li>
             <li> <a href="customer.jsp" id="noline"> Login Now</a></li>
         </ul>
     </div>
@@ -66,7 +66,7 @@
         </div>
         <div class="mail">
           <h3>Mail Us</h3>
-          <p>medfourheal@gmail.com<br>
+          <p>med4heal@gmail.com<br>
        
           
         </div>

@@ -1,9 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Welcome Admin</title>
 <link href="admin_process.css" rel="stylesheet" type="text/css"> 
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 
 <body>
@@ -17,7 +19,7 @@
   <a href="index.jsp">Home</a>
   <a href="about.jsp">About Us</a>
   <a href="admin.jsp"  class="active" id="active">Administrator</a>
-  <a href="distributor.jsp">Distributer</a>
+  <a href="distributor.jsp">Distributor</a>
    <a href="customer.jsp">Customer</a>
      <a href="contactus.jsp">Contact Us</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -32,6 +34,7 @@
 <br><br><a href='customeradmin.jsp' id="ll"> Go To Customer Administration </a><br> <br><br>
 <br><a href='ordersadmin.jsp' id="ll"> Go To Orders Administration </a><br><br><br>
 <br><a href='distributoradmin.jsp' id="ll"> Go To Distributor Administration </a><br><br>
+<br><br><a href='adminchangepassword.jsp' id="ll"> Change Password </a><br><br><br>
 <br><button id="redirect"><a href="admin.jsp" id="back">Logout</a></button>
 <footer class="footer">
 	<div class="about">
@@ -39,7 +42,7 @@
         <ul>
             <li> <a href="contactus.jsp" id="noline"> Contact Us</a></li>
             <li> <a href="about.jsp" id="noline"> About us</a></li>
-            <li> <a href="careers.jsp" id="noline"> Carrers</a></li>
+            <li> <a href="careers.jsp" id="noline"> Careers</a></li>
             <li> <a href="customer.jsp" id="noline"> Login Now</a></li>
         </ul>
     </div>
@@ -63,7 +66,7 @@
         </div>
         <div class="mail">
           <h3>Mail Us</h3>
-          <p>medfourheal@gmail.com<br>
+          <p>med4heal@gmail.com<br>
        
           
         </div>

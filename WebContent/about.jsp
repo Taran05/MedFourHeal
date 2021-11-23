@@ -18,7 +18,7 @@
   <a href="index.jsp">Home</a>
   <a href="about.jsp" class="active" id="active">About Us</a>
   <a href="admin.jsp">Administrator</a>
-  <a href="distributor.jsp">Distributer</a>
+  <a href="distributor.jsp">Distributor</a>
    <a href="customer.jsp">Customer</a>
      <a href="contactus.jsp">Contact Us</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -28,7 +28,7 @@
 
 <div id="indigo">
   <p>
-  Medfourheal is one of the most prestigious Pharmacy's in India. It was co-founded on 30 August, 2020 in Indore by Mr. Taranjot Singh, Mr. Tanishq Porwal, Ms. Tejaswini Jain and Mr. Vatsal Rathi, and is expected to be among one of the most promising pharmacy websites not only in India, but also in the world.
+  Medfourheal is one of the most prestigious Pharmacy's in India. It was co-founded on 25 August, 2021 in Indore by Mr. Taranjot Singh & Mr. Tanishq Porwal, and is expected to be among one of the most promising pharmacy websites not only in India, but also in the world.
   </p>
   <p> 
   Medfourheal is affiliated to the Central Board of PHARMACY (CBB), which is the largest educational board in the country. It is recognized by the Department of Education, Govt. of NCT Delhi and the Ministry of HRD, Govt. of India. Over 5000 PHARMACYs in India, with over 80,000 students, are members of the Board. 
@@ -36,9 +36,7 @@
   <p>
   The PHARMACY is also affiliated to the Indian Public PHARMACYs' Conference (IPSC), and the National Progressive PHARMACYs' Conference (NPSC). The members of these organisations include some of the premier PHARMACYs in the country.
 </p>
-<p>
-Life at DPSRKP centres on a shared commitment to academic excellence, intellectual growth, art, athletics, high standards of ethical awareness, sportsmanship, and community service. The PHARMACY's traditions and accessibility to a broad curriculum add depth to the life of each student.
-</p>
+
 
 </div>
 <div id="hero">
@@ -51,16 +49,7 @@ Life at DPSRKP centres on a shared commitment to academic excellence, intellectu
      <img src="images/ng.jpg" id="talent">
      <h2 id="lead">Tanishq Porwal</h2>
    </div>
-   <div id="mango">
-     <img src="images/aas.jpeg" id="talent">
-     <h2 id="lead">Tejaswini Jain</h2>
-   </div>
-   <div id="mango">
-     <img src="images/vat.jpeg" id="talent">
-     <h2 id="lead">Vatsal Rathi</h2>
-   </div>
-
-</div>
+ </div>
 
 
 <footer class="footer">
@@ -69,7 +58,7 @@ Life at DPSRKP centres on a shared commitment to academic excellence, intellectu
         <ul>
             <li> <a href="contactus.jsp" id="noline"> Contact Us</a></li>
             <li> <a href="about.jsp" id="noline"> About us</a></li>
-            <li> <a href="careers.jsp" id="noline"> Carrers</a></li>
+            <li> <a href="careers.jsp" id="noline"> Careers</a></li>
             <li> <a href="customer.jsp" id="noline"> Login Now</a></li>
         </ul>
     </div>
@@ -93,7 +82,7 @@ Life at DPSRKP centres on a shared commitment to academic excellence, intellectu
         </div>
         <div class="mail">
           <h3>Mail Us</h3>
-          <p>medfourheal@gmail.com<br>
+          <p>med4heal@gmail.com<br>
        
           
         </div>
@@ -113,5 +102,6 @@ Life at DPSRKP centres on a shared commitment to academic excellence, intellectu
 <br>
   </div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>

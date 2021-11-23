@@ -10,11 +10,13 @@
 </style>
 <meta charset="ISO-8859-1">
 <title>Customer Registration</title>
+<link href="admin_style.css" rel="stylesheet" type="text/css"> 
 <link href="admin_process.css" rel="stylesheet" type="text/css">   
 <link href="img.css" rel="stylesheet" type="text/css">  
 <link href="form.css" rel="stylesheet" type="text/css">  
 </head>
 <body>
+
 <header class="header">
     <marquee id="mar" style="color:purple;background-color:skyblue">Save Upto 30% On Your First Order. Use Promo code : "MYFIRST"</marquee>
 	<img src="images/log1.png" id="logo" class="center">
@@ -23,7 +25,7 @@
   <a href="index.jsp">Home</a>
   <a href="about.jsp">About Us</a>
   <a href="admin.jsp">Administrator</a>
-  <a href="distributor.jsp">Distributer</a>
+  <a href="distributor.jsp">Distributor</a>
    <a href="customer.jsp" class="active" id="active">Customer</a>
      <a href="contactus.jsp">Contact Us</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -31,6 +33,8 @@
   </a>
   </div>
 </head>
+
+<button id="red"><a href="customer.jsp" id="bac">Back</a></button>
 <body>
 	<div class="register">
    	 <div class="container">
@@ -59,7 +63,7 @@
         <ul>
             <li> <a href="contactus.jsp" id="noline"> Contact Us</a></li>
             <li> <a href="about.jsp" id="noline"> About us</a></li>
-            <li> <a href="careers.jsp" id="noline"> Carrers</a></li>
+            <li> <a href="careers.jsp" id="noline"> Careers</a></li>
             <li> <a href="customer.jsp" id="noline"> Login Now</a></li>
         </ul>
     </div>
@@ -83,7 +87,7 @@
         </div>
         <div class="mail">
           <h3>Mail Us</h3>
-          <p>medfourheal@gmail.com<br>
+          <p>med4heal@gmail.com<br>
        
           
         </div>
@@ -100,5 +104,6 @@
           
         </div>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>

@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Distributor LogIn</title>
 </head>
 <body>
 
@@ -18,13 +18,11 @@
         if (b) 
         { 
             session.setAttribute("distributor",obj.getEmail());
-
-            
             RequestDispatcher rd = request.getRequestDispatcher("distributroProcess.jsp");
             rd.forward(request, response); 
             %>
             <script>
-                swal("Welcome!", "Login Successfully!", "success");
+                swal("Welcome!", "Login Successfully!", "Success");
             </script>
             <%
         } 
@@ -32,7 +30,7 @@
         {
         	%>
             <script>
-                swal("Please login with correct id!", "error");
+                swal("Please login with correct id!", "Error");
             </script>
             <%
              RequestDispatcher rd = request.getRequestDispatcher("distributor.jsp");

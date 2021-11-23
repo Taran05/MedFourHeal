@@ -31,25 +31,27 @@
 <br>
 
 <div class="wrapper">
-  <h2>Welcome To Distributor Login</h2>
-  <div>   
-  </div>
+  <h2>Welcome To Distributor Login</h2><br>
   <form method="post" action="distributorLogin_db.jsp">
     <div class="input_field">
-        <input type="text" placeholder="Username" name="email" required=" ">
-    </div>
+        <input type="email" placeholder="Username" name="email" required=" ">
+    </div><br>
     <div class="input_field">
         <input type="password" placeholder="Password" name="password" required=" ">
     </div>
+    <br>
+    <h3 ><a href="distributorforgetpassword.jsp" id="shar" class="shar">Forget Password?</a></h3>
     <div class="btn">
         <input type="submit" value="Login">
     </div>
-    <br><br>
+    <br>
+    <br>
     <h3 > <a href="distributorRegister.jsp" id="line" class="line">New to Medfourheal? Register Now !</a></h3>
   </form>
 </div>
 
 <script>
+
 </script>
 
 
@@ -61,7 +63,7 @@
         <ul>
             <li> <a href="contactus.jsp" id="noline"> Contact Us</a></li>
             <li> <a href="about.jsp" id="noline"> About us</a></li>
-            <li> <a href="careers.jsp" id="noline"> Carrers</a></li>
+            <li> <a href="careers.jsp" id="noline">Careers</a></li>
             <li> <a href="customer.jsp" id="noline"> Login Now</a></li>
         </ul>
     </div>
@@ -85,7 +87,7 @@
         </div>
         <div class="mail">
           <h3>Mail Us</h3>
-          <p>medfourheal@gmail.com<br>
+          <p>med4heal@gmail.com<br>
        
           
         </div>
@@ -105,5 +107,6 @@
 <br>
   </div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>

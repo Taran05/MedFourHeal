@@ -9,15 +9,31 @@
  width:300px;
 }
 
+#shar, .shar{
+	text-align: center;
+	color: purple;
+	font-size: 16px;
+	padding-left: 110px;
+	text-decoration: none;
+	font-family: 'Sawarabi Gothic', sans-serif;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+#shar:hover{
+	color: skyblue;
+}
+
 #line, .line{
 	text-align: center;
-	color: #cc0066;
-	font-size: 20px;
+	color: green;
+	font-size: 16px;
 	padding-left: 25px;
 	text-decoration: none;
 	font-family: 'Sawarabi Gothic', sans-serif;
 	font-weight: bolder;
+	text-transform: uppercase;
 }
 #line:hover{
-	color: #08c230;
+	color: skyblue;
 }
+

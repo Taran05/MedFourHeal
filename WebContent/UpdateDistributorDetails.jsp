@@ -11,6 +11,7 @@
 </style>
 <meta charset="ISO-8859-1">
 <title>Update Distributor Details</title>
+<link href="admin_style.css" rel="stylesheet" type="text/css"> 
 <link href="admin_process.css" rel="stylesheet" type="text/css">   
 <link href="img.css" rel="stylesheet" type="text/css">  
 <link href="form.css" rel="stylesheet" type="text/css">  
@@ -24,13 +25,14 @@
   <a href="index.jsp">Home</a>
   <a href="about.jsp">About Us</a>
   <a href="admin.jsp"  class="active" id="active">Administrator</a>
-  <a href="distributor.jsp">Distributer</a>
+  <a href="distributor.jsp">Distributor</a>
    <a href="customer.jsp">Customer</a>
      <a href="contactus.jsp">Contact Us</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
   </div>
+  <button id="red"><a href="distributoradmin.jsp" id="bac">Back</a></button>
         <div class="login">
             <div class="container">
                 <h2>Update Distributor Details</h2>
@@ -61,7 +63,7 @@
         <ul>
             <li> <a href="contactus.jsp" id="noline"> Contact Us</a></li>
             <li> <a href="about.jsp" id="noline"> About us</a></li>
-            <li> <a href="careers.jsp" id="noline"> Carrers</a></li>
+            <li> <a href="careers.jsp" id="noline">Careers</a></li>
             <li> <a href="customer.jsp" id="noline"> Login Now</a></li>
         </ul>
     </div>
@@ -85,7 +87,7 @@
         </div>
         <div class="mail">
           <h3>Mail Us</h3>
-          <p>medfourheal@gmail.com<br>
+          <p>med4heal@gmail.com<br>
        
           
         </div>

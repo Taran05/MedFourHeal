@@ -35,7 +35,7 @@
                  %>
                   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
                         <script>
-                                swal("Distributor Details Not Updated Successfully!!!!", "Fail");
+                                swal("Distributor Details Not Updated Successfully!!!!", "Error");
                         </script>
                         <jsp:include page="UpdateDistributorDetails.jsp"/>
                <%

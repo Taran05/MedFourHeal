@@ -13,6 +13,9 @@ public class Distributor
 	private String shop_address;
 	private String residential_address;
 	private String d_o_b;
+	private boolean verified;
+	private boolean approved;
+	
 	
 	public Distributor()
 	{
@@ -21,7 +24,7 @@ public class Distributor
 
 	public Distributor(String email, String password, String first_name, String last_name, String mobile_no,
 			String pharmacist_no, String form20_drug_license_no, String form21_drug_license_no, String shop_address,
-			String residential_address, String d_o_b) {
+			String residential_address, String d_o_b, boolean verified, boolean approved) {
 		super();
 		this.email = email;
 		this.password = password;
@@ -34,6 +37,8 @@ public class Distributor
 		this.shop_address = shop_address;
 		this.residential_address = residential_address;
 		this.d_o_b = d_o_b;
+		this.verified=verified;
+		this.approved=approved;
 	}
 
 	public String getEmail() {
@@ -123,4 +128,20 @@ public class Distributor
 	public void setD_o_b(String d_o_b) {
 		this.d_o_b = d_o_b;
 	}
+	public boolean isVerified() {
+        return verified;
+    }
+
+    public void setVerified(boolean verified) {
+        this.verified = verified;
+    }
+
+    public boolean isApproved() 
+    {
+        return approved;
+    }
+
+    public void setApproved(boolean approved) {
+        this.approved = approved;
+    }
 }

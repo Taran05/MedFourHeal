@@ -20,7 +20,7 @@
   As per the latest government guidelines, we have started accepting orders for all products across the country and for essential products in Containment Areas.
   </p>
   <p>
-  Last updated on Sep 10, 2020
+  Last updated on Sep 10, 2021
   </p>
   <ol>
   <li>Are you delivering non-essential products?</li>
@@ -75,7 +75,7 @@
         </div>
         <div class="mail">
           <h3>Mail Us</h3>
-          <p>medfourheal@gmail.com<br>
+          <p>med4heal@gmail.com<br>
        
           
         </div>
@@ -95,5 +95,6 @@
 <br>
   </div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>

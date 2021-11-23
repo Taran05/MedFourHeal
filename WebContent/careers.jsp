@@ -18,7 +18,7 @@
   </h3>
   
 <p>We are Medfourheal India's highest rated online pharmacy app. We deliver medicines, healthcare products and provide diagnostic services & tests right to your doorstep. </p>
-<p>Founded in 2015 by Taranjot Singh, Tanishq Porwal, Tejaswini Jain and Vatsal Rathi, we have more than 1000+ committed employees working towards our collective goal of making healthcare easy and affordable.</p>
+<p>Founded in 2021 by Taranjot Singh & Tanishq Porwal, we have more than 1000+ committed employees working towards our collective goal of making healthcare easy and affordable.</p>
 <ul>
 <li>2 Million+</li><br>
 Indian Families serviced
@@ -57,7 +57,7 @@ Cities under our Belt
         <ul>
             <li> <a href="contactus.jsp" id="noline"> Contact Us</a></li>
             <li> <a href="about.jsp" id="noline"> About us</a></li>
-            <li> <a href="careers.jsp" id="noline"> Carrers</a></li>
+            <li> <a href="careers.jsp" id="noline"> Careers</a></li>
             <li> <a href="customer.jsp" id="noline"> Login Now</a></li>
         </ul>
     </div>
@@ -81,7 +81,7 @@ Cities under our Belt
         </div>
         <div class="mail">
           <h3>Mail Us</h3>
-          <p>medfourheal@gmail.com<br>
+          <p>med4heal@gmail.com<br>
        
           
         </div>
@@ -101,5 +101,6 @@ Cities under our Belt
 <br>
   </div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
