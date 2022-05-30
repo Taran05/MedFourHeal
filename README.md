@@ -7,6 +7,10 @@ The site also allows the distributors to sell medicines online. It has 24*7 avai
 It also contains a chatbot for a better customer experience. Other features include cash on delivery,
 payment gateway, distributor/customer verification, distributor approval, etc.
 
+# Screenshot:
+
+![image](https://user-images.githubusercontent.com/65440079/170946980-89eba02f-1ab8-4868-96aa-de8528a3d0fa.png)
+
 
 # Technologies Used :
 
